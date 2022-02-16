@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    width: 400px;
+    height: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.input_container {
+    margin-top: 30px;
+}
+
+input[name=number_input] {
+    width: 350px;
+    height: 50px;
+    font-size: 50px;
+    text-align: end;
+    background-color: black;
+    border: 0;
+}
+
+.button_container {
+    margin-top: 25px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    color: white;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin: 0 2.25px 10px;
+}
+
+.operators_white {
+    color: black;
+}
+
+.operators {
+    background-color: orange;
+}
+
+.numbers {
+    background-color: gray;
+}
+
+#zero {
+    width: 168.5px;
+    border-radius: 50px;
+}
