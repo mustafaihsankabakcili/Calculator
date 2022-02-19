@@ -12,19 +12,22 @@
 <body>
 
     <header>
-        <h1>Calculator</h1>
+        <h1>IOS Calculator</h1>
     </header>
 
     <main>
+        <div class="memory">
+            <p></p>
+        </div>
         <div class="input_container">
-            <input type="number" name="number_input" id="number_input">
+            <input type="text" name="number_input" id="number_input">
         </div>
         <div class="button_container">
             <div class="row row1">
-                <button id="ac" class="operators_white">AC</button>
-                <button id="plus_minus" class="operators_white">±</button>
-                <button id="modulus" class="operators_white">%</button>
-                <button id="division" class="operators">/</button>
+                <button id="ac" class="operators_white ac">AC</button>
+                <button id="plus_minus" class="operators_white plus_minus">±</button>
+                <button id="modulus" class="operators_white modulus">%</button>
+                <button id="division" class="operators">÷</button>
             </div>
             <div class="row row2">
                 <button id="seven" class="numbers">7</button>
@@ -50,7 +53,7 @@
             <div class="row row5">
                 <button id="zero" class="numbers">0</button>
                 <button id="dot" class="numbers">.</button>
-                <button id="equal" class="operators">=</button>
+                <button id="equal" class="operators equal">=</button>
             </div>
 
         </div>

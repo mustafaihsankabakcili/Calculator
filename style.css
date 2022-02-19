@@ -10,12 +10,32 @@ header {
 }
 
 main {
-    width: 400px;
-    height: 600px;
+    width: 410px;
+    height: 710px;
     margin: 25px auto;
-    padding: 25px;
+    padding: 100px 25px 25px;
     background-color: black;
-    border-radius: 30px;
+    border: 5px solid silver;
+    border-radius: 50px;
+}
+
+.memory {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    width: 100%;
+    overflow: hidden;
+    height: 30px;
+    margin-bottom: 7.5px;
+}
+
+.memory p {
+    font-size: 20px;
+    padding: 5px;
+    text-align: right;
+    justify-content: center;
+    color: white;
 }
 
 .input_container {
@@ -24,10 +44,11 @@ main {
 
 input[name=number_input] {
     width: 350px;
-    height: 50px;
-    font-size: 50px;
+    height: 75px;
+    font-size: 75px;
     text-align: end;
     background-color: black;
+    color: white;
     border: 0;
 }
 
