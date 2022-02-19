@@ -31,6 +31,11 @@ main {
     border-radius: 35px;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .memory {
     display: flex;
     justify-content: flex-end;
@@ -69,8 +74,8 @@ input[name=number_input] {
 }
 
 button {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     font-size: 35px;
     color: white;
     border-radius: 100%;
@@ -91,6 +96,6 @@ button {
 }
 
 #zero {
-    width: 148.515px;
+    width: 146.67px;
     border-radius: 50px;
 }
