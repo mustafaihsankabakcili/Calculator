@@ -35,7 +35,7 @@ button_container.addEventListener('click', function(e) {
             operator = "";
         }
         operator = e.target.innerHTML;
-        if (e.target.innerHTML === "x" || e.target.innerHTML === "÷") {
+        if (e.target.innerHTML === "x" || e.target.innerHTML === "÷" || e.target.innerHTML === "%") {
             memory.innerHTML = `(${memory.innerHTML})`; // Changing to (num1 operator num2)
         }
         memory.innerHTML += ` ${operator}`;
